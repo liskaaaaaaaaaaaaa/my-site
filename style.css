@@ -1,0 +1,47 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #000;
+}
+
+nav a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.gallery {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 30%;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  background: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
